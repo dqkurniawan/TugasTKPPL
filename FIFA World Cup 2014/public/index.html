@@ -4,13 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>FIFA World Cup 2014</title>
-    <title>Hello World</title>
     <!-- build:css styles/styles.css-->
     <link rel="stylesheet" type="text/css" href="bower_components/prism/themes/prism-tomorrow.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
     <!-- endbuild-->
   </head>
   <body>
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown"><a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle"><b>World Cup Timeline</b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#4">1930-1934-1938-1950</a></li>
+                  <li><a href="#5">1954-1958-1962-1966</a></li>
+                  <li><a href="#6">1970-1974-1978-1982</a></li>
+                  <li><a href="#7">1986-1990-1994-1998</a></li>
+                  <li><a href="#8">2002-2006-2010</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <article>
       <section data-bespoke-state="emphatic">
         <h3>Trophy</h3><img src="images/trophy.jpg" width="480px"><br>
@@ -276,6 +295,60 @@
           </tr>
         </table>
       </section>
+      <section data-bespoke-state="emphatic">
+        <table>
+          <tr>
+            <td width="20%"></td>
+            <td width="20%"><img src="images/korea-japan-2002.png"><br><b>Korea Japan</b><br><b>2002</b></td>
+            <td width="20%"><img src="images/germany-2006.png"><br><b>Germany</b><br><b>2006</b></td>
+            <td width="20%"><img src="images/south-africa-2010.png"><br><b>South Africa</b><br><b>2010</b></td>
+          </tr>
+          <tr>
+            <td rowspan="2">1<sup>st</sup></td>
+            <td><span style="font-size:12px;">Brazil</span></td>
+            <td><span style="font-size:12px;">Italy</span></td>
+            <td><span style="font-size:12px;">Spain</span></td>
+          </tr>
+          <tr>
+            <td><img src="images/bra.png" width="30px"></td>
+            <td><img src="images/ita.png" width="30px"></td>
+            <td><img src="images/esp.png" width="30px"></td>
+          </tr>
+          <tr>
+            <td rowspan="2">2<sup>nd</sup></td>
+            <td><span style="font-size:12px;">Germany</span></td>
+            <td><span style="font-size:12px;">France</span></td>
+            <td><span style="font-size:12px;">Netherlands</span></td>
+          </tr>
+          <tr>
+            <td><img src="images/ger.png" width="30px"></td>
+            <td><img src="images/fra.png" width="30px"></td>
+            <td><img src="images/ned.png" width="30px"></td>
+          </tr>
+          <tr>
+            <td rowspan="2">3<sup>rd</sup></td>
+            <td><span style="font-size:12px;">Turkey</span></td>
+            <td><span style="font-size:12px;">Germany</span></td>
+            <td><span style="font-size:12px;">Germany</span></td>
+          </tr>
+          <tr>
+            <td><img src="images/tur.png" width="30px"></td>
+            <td><img src="images/ger.png" width="30px"></td>
+            <td><img src="images/ger.png" width="30px"></td>
+          </tr>
+          <tr>
+            <td rowspan="2">4<sup>th</sup></td>
+            <td><span style="font-size:12px;">Korea Republic</span></td>
+            <td><span style="font-size:12px;">Porugal</span></td>
+            <td><span style="font-size:12px;">Uruguay</span></td>
+          </tr>
+          <tr>
+            <td><img src="images/kor.png" width="30px"></td>
+            <td><img src="images/por.png" width="30px"></td>
+            <td><img src="images/uru.png" width="30px"></td>
+          </tr>
+        </table>
+      </section>
     </article>
     <!-- build:js scripts/scripts.js-->
     <script src="bower_components/bespoke.js/dist/bespoke.min.js"></script>
@@ -289,6 +362,8 @@
     <script src="bower_components/bespoke-forms/dist/bespoke-forms.min.js"></script>
     <script src="bower_components/prism/prism.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
     <!-- endbuild-->
   </body>
 </html>
