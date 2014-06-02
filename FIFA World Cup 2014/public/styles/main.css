@@ -224,9 +224,9 @@ li.bespoke-bullet-inactive {
   background: #0089f3;
   -webkit-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
+  margin-top: 50px;
 }
-.emphatic,
-.emphatic .bespoke-slide {
+.emphatic {
   background: #eaeaea;
 }
 pre {
